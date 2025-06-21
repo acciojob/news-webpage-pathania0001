@@ -16,6 +16,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 20px;
+	align-items: flex-start;
 }
 
 .latest-news-section {
@@ -24,6 +25,7 @@ body {
   width: 80%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	flex:1;
 }
 
 .latest-news-section ul {
@@ -38,10 +40,14 @@ body {
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	flex:1;
 }
 
 .pictorial-news-section img {
   width: 100%;
   margin: 10px;
   border-radius: 4px;
+}
+.new{
+flex:2;
 }
